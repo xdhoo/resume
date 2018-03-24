@@ -1,12 +1,50 @@
-.wrapper{
-    
+body,a,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+li{
+    list-style: none
+}
+a{
+    color: #08851D;
+    text-decoration: none;
+}
+hr{
+    margin:20px;
+}
+body{
+    background-color: #E4E3E3;
 }
 .container{
     width: 800px;
-    margin: auto;
+    margin: 10px auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.container h3{
+    text-align: center;
 }
 .c-left{
-    width: 200px;
-    border-right: 1px solid #000000;
-    float: left;
+    position: absolute;
+    width: 300px;
+    background-color: #29B6F6;
+    color: #ffffff;
+}
+.c-left-title{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.c-left-item{
+    margin-left: -10px;
+    font-size: 18px;
+}
+.c-left h3{
+    text-align: center;
+}
+.c-left li{
+    padding: 4px 0px;
+}
+.c-right{
+    margin-left: 300px;
+    background-color: #FFFFFF;
 }
