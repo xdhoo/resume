@@ -1,4 +1,4 @@
-body,a,h1,h2,h3,h4,h5,h6{
+body,a,h1,h2,h3,h4,h5,h6,p,ul,div{
     margin: 0;
 }
 li{
@@ -8,7 +8,7 @@ a{
     color: #08851D;
     text-decoration: none;
 }
-hr{
+.c-left hr{
     margin:20px;
 }
 body{
@@ -16,6 +16,7 @@ body{
 }
 .container{
     width: 800px;
+    background-color: #29B6F6;    
     margin: 10px auto;
     border-radius: 4px;
     overflow: hidden;
@@ -26,13 +27,18 @@ body{
 .c-left{
     position: absolute;
     width: 300px;
-    background-color: #29B6F6;
     color: #ffffff;
 }
 .c-left-title{
     font-size: 20px;
     text-align: center;
     padding: 30px;
+}
+.c-left-title a{
+    font-size: 16px;
+}
+.c-left a:hover{
+    color: aliceblue;
 }
 .c-left-item{
     margin-left: -10px;
@@ -47,4 +53,49 @@ body{
 .c-right{
     margin-left: 300px;
     background-color: #FFFFFF;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.c-right ul{
+    border-left: 2px solid #0e96f1;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.c-right h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #29B6F6;
+    padding: 16px 20px 4px;
+}
+.c-right h5{
+    color: rgb(11, 142, 202);
+    font-size: 20px;
+    margin: 8px 0px;
+}
+.c-right h6{
+    font-size: 18px;
+    margin: 8px 0px;
+    font-weight: 600;
+}
+.c-right hr{
+    margin: 0px 20px 15px;
+}
+.c-right p{
+    padding: 1px 0px;
+}
+.progress-bar{
+    width: 200px;
+    height: 6px;
+    background-color: #E4E3E3;
+    border-radius: 2px;
+    margin: 6px 0px;
+}
+.progress{
+    background-color: #0e96f1;
+    width: 100px;
+    height: inherit;
+    border-radius: 2px;
+}
+.skills{
+    padding-left: 20px;
 }
