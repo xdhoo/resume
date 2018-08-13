@@ -26,8 +26,11 @@ body{
 }
 .c-left{
     position: absolute;
-    width: 300px;
+    width: 280px;
     color: #ffffff;
+}
+.c-left ul{
+  margin-left: -8px;
 }
 .c-left-title{
     font-size: 20px;
@@ -51,10 +54,10 @@ body{
     padding: 4px 0px;
 }
 .c-right{
-    margin-left: 300px;
+    margin-left: 280px;
     background-color: #FFFFFF;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .c-right ul{
     border-left: 2px solid #0e96f1;
@@ -98,4 +101,9 @@ body{
 }
 .skills{
     padding-left: 20px;
+}
+.thanks{
+  margin-top:10px;
+  text-align: center;
+  color: #29B6F6
 }
